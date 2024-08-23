@@ -199,7 +199,8 @@ footer {
 
 .img--bg {
   margin: 0 auto;
-  width: min(75%, 435px);
+  width: min(65%, 435px);
+  min-width: 253px;
   border-radius: 50%;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   overflow: hidden;
@@ -209,7 +210,7 @@ footer {
 }
 
 .img--bg img {
-  width: max(50%, 253px);
+  width: min(55%, 260px);
 
   margin-top: 4em;
 }
@@ -275,7 +276,7 @@ footer {
   }
 
   .hero .container {
-    margin-top: 6rem;
+    margin-top: 8rem;
     height: auto;
   }
 
