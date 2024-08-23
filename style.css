@@ -53,9 +53,7 @@ p {
 }
 
 .header {
-  position: relative;
   margin: 1rem auto;
-  z-index: -50;
 }
 
 .header .btn {
