@@ -217,6 +217,8 @@ footer {
 
 .second-section .col {
   width: 100%;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 2.5rem;
   padding: 2rem 1.75rem;
   border-radius: 0.625rem;
@@ -245,7 +247,14 @@ footer {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-bottom: 1rem;
+  margin-bottom: auto;
+}
+
+.column--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .column--text h3 {
@@ -254,7 +263,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 1.75rem;
-  margin-top: 1.5rem;
+  margin-top: auto;
 }
 
 .column--text h3:hover,
